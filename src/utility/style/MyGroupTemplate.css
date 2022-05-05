@@ -1,0 +1,56 @@
+#MyGroupsTemplate-container {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.MyGroupsTemplate-child-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.MyGroupsTemplate-child-one > h3 {
+    margin:0;
+    margin-top: 2px;
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.MyGroupsTemplate-child-one > div {
+    background-color: rgb(74, 74, 233);
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 69px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.MyGroupsTemplate-child-two {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 55px;
+    margin-top: 0;
+    padding: 2px;
+    padding-top: 6px;
+    margin-right: 33px;
+    margin-bottom: 9px;
+}
+
+.MyGroupsTemplate-child-two span {
+    color: gray;
+    font-size: 10px;
+}
+
+.MyGroupsTemplate-child-two p {
+    margin: 0;
+    font-size: 15px;
+}

@@ -1,0 +1,71 @@
+#post {
+    width: 667px;
+    height: 169px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.post-child-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 12px;
+    margin-right: 137px;
+}
+
+.post-child-top > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+input {
+    border: none; /* Removes the default border */
+  }
+  
+  input:focus {
+    outline: none /* Removes the border when the input is clicked */
+  }
+
+.post-child-top > input {
+    width: 424px;
+    height: 56px;
+}
+
+.post-child-top > input::placeholder {
+    color: gray;
+    opacity: 0.4;
+    font-size: 1.0em;    
+  }
+  
+.post-child-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+
+.post-child-bottom-left {
+    display: flex;
+}
+
+#youtube > a {
+    color: rgb(197, 5, 5);
+} 
+
+.post-child-bottom  li {
+    list-style: none;
+    font-size: 25px;
+    margin: 8px;
+}
+
+.post-child-bottom li > a{
+    font-size: 1.8rem;
+    color: rgb(158, 158, 158);
+}
+
+#post-btn > a {
+    
+    color: rgb(74, 74, 233);
+    margin-right: 12px;
+}
