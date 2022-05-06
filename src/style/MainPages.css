@@ -1,0 +1,24 @@
+#MainPages {
+    display: flex;
+    width: 646px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.MainPages-child {
+    text-align: center;
+    line-height: 34px;
+    width: 161px;
+    height: 37px;
+    color: black;
+    border-radius: 4px;
+    border-left: 0.1px solid gray;
+    cursor: pointer;
+}
+
+.make-active {
+    background-color: rgb(78, 78, 218);
+    color: #fff;
+}
+

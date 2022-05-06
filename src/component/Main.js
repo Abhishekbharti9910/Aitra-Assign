@@ -4,6 +4,7 @@ import Post from './Post'
 import Feed from './Feed'
 import feedImg1 from '../image/feed1.jpg'
 import feedImg from '../image/feedMain.jpg'
+import MainPages from './MainPages'
 
 
 function Main() {
@@ -14,6 +15,7 @@ function Main() {
   return (
     <main id='main-container'>
         <Post />
+        <MainPages />
         <Feed
          name="Vikrant Messy"  location="Bihar(S)" proImg={feedImg1} day={20}
          para={para1} like={230} dislike={10} comment={9}
