@@ -1,0 +1,66 @@
+#TrendingTemplate-container {
+    display: flex;
+    width: 300px;
+    /* background-color: ; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.TrendingTemplate-left > p {
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.TrendingTemplate-mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.TrendingTemplate-tile {
+    font-size: 12px;
+    font-family: 400;
+    text-align: center;
+}
+
+.TrendingTemplate-stats {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.TrendingTemplate-stats > div >p {
+
+    margin-right: 8px;
+
+}
+
+.TrendingTemplate-stats > div >li {
+    color: blue;
+    margin-left: 8px;
+}
+
+.TrendingTemplate-stats {
+    display: flex;
+    justify-content: space-between;
+}
+.TrendingTemplate-stats > div {
+    display: flex;
+    align-items: center;
+}
+
+.TrendingTemplate-stats > i {
+    font-size: 23px;
+    margin-top: 7px;
+    color: gray;
+}
+
+.TrendingTemplate-stats > i > span {
+    font-size: 10px;
+    color: gray;
+    margin: 8px;
+}
+.TrendingTemplate-right > img {
+    width: 75px;
+    height: 81px;
+    border-radius: 9px;
+    padding: 3px;
+    margin-top: 5px;
+}
