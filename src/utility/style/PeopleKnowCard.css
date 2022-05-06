@@ -1,0 +1,60 @@
+#people-know-card-container {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 12px;
+    margin-left: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-right: 0;
+}
+
+.people-know-card-left {
+    width: 54px;
+    height: auto;
+    padding: 3px;
+    margin: 0;  
+}
+
+.people-know-card-left > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 37px;
+}
+
+
+.people-know-card-mid {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-right: 31px;
+}
+
+.people-know-card-mid-child-one {
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    width: 192px;
+    font-size: 11px;
+    
+}
+
+
+.people-know-card-mid-child-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 192px;
+    font-size: 10px;
+    height: 14px;
+    margin-top: 9px;
+}
+
+.people-know-card-right {
+    width: 82px;
+    border: 1px solid rgb(37, 37, 219);
+    height: 31px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 8px;
+}

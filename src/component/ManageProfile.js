@@ -11,18 +11,18 @@ function ManageProfile(props) {
         <img src={profileBack} id="profile-back" />
         <img src={profilePic}  id="profile-pic" alt="profile pic" />
         <div class="details">
-            <h2>Stevie Blight</h2>
-            <p>Director Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <h2>{props.name}</h2>
+            <p>{props.para}</p>
         </div>
         
         <div id='pop-stats'>
             <div className='followers pop-stats-child'>
                 <h3>Followers</h3>
-                <span>523</span>
+                <span>{props.followers}</span>
             </div>    
             <div className='followers pop-stats-child'>
-                <h3>Followers</h3>
-                <span>523</span>
+                <h3>Following</h3>
+                <span>{props.following}</span>
             </div>    
         </div>
         <h4 id='manage-profile'>Manage profile</h4>
