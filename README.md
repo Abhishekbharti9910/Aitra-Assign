@@ -10,3 +10,5 @@ I divided site dashboar into three subpart called
 
 
 all these three containing there respective component
+
+If you dont wan't to run the assingnment on your machine please check "Assignment pics" folder for page screen shot
